@@ -1,2 +1,2 @@
-# EECS1012
+# Net Centric Programing
 Labs for JavaScript/HTML/CSS
