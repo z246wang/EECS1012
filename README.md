@@ -1,2 +1,2 @@
 # EECS1012
-Labs for Javascript
+Labs for JavaScript/HTML/CSS
