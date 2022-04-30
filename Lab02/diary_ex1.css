@@ -1,0 +1,21 @@
+.content{
+    border:3px blue solid;
+}
+header{
+    border:3px green solid;
+}
+h1+h2{
+    border:3px orange solid;
+}
+.diary{
+    border:3px lime solid;
+}
+span{
+    border:3px cyan solid;
+}
+p{
+    border:1px grey solid;
+}
+.footer{
+    border:3px magenta solid;
+}

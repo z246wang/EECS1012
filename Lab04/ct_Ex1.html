@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for Lab 4.
+  Authors: Amirhossein Chinaei, Andriy Pavlovych
+  For: EECS 1012, York University, Lassonde School of Engineering -->
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Lab 4 - Computational Thinking </title>
+  <link rel="stylesheet" type="text/css" href="ct.css" title="style" /> 
+  <!--in Ex1 to Ex5, link your html file to your js file, here-->
+  <script rel="script" src="ct_Ex1.js"></script>
+
+</head>
+<body>
+  <header>
+    <!-- in Ex2 to Ex5 change this header properly-->
+    <h1> perimeter of a rectangle </h1>
+  </header>
+  
+  <div class="column1">
+    <!--in Ex2, change the following divisions to have labels a and b
+	instead of one side and another side; change the min and 
+	max to 1 and 100; also, add a new division and label it c, and 
+	make sure its id is num3-->
+	<!--in Ex 3, change the min and max to what we had in Ex1-->
+	<!--in Ex 5, keep the first input and change its label to input, 
+	remove the other two inputs-->
+    <div class="input">
+	  one side <input id="number1" type="number" min="-32768" max="32767"/>
+	</div>
+	<div class="input">
+	  another side <input id="number2" type="number" min="-32768" max="32767"/>
+	</div>
+	<div class="input">
+	
+	  <!-- in Ex2 to Ex5, you need to change the name of the 
+	  event handler properly-->
+	  <button onclick="perimeter()"> enter </button>
+	</div>
+	<strong><p id="output">	</p></strong>
+  </div>	
+  <footer>&copy; Author: <span>Zhen Wang</span> </footer>
+</body>
+</html>

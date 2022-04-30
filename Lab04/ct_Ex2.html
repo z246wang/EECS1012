@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Webpage HTML document for Lab 4.
+  Authors: Amirhossein Chinaei, Andriy Pavlovych
+  For: EECS 1012, York University, Lassonde School of Engineering -->
+<html lang="En">
+<head>
+  <meta charset="UTF-8">
+  <title> EECS1012: Lab 4 - Computational Thinking </title>
+  <link rel="stylesheet" type="text/css" href="ct.css" title="style" /> 
+  <!--in Ex1 to Ex5, link your html file to your js file, here-->
+  <script rel="script" src="ct_Ex2.js"></script>
+
+</head>
+<body>
+  <header>
+    <!-- in Ex2 to Ex5 change this header properly-->
+    <h1> volume of an ellipsoid </h1>
+  </header>
+  
+  <div class="column1">
+	<!--in Ex 3, change the min and max to what we had in Ex1-->
+	<!--in Ex 5, keep the first input and change its label to input, 
+	remove the other two inputs-->
+    <div class="input">
+	  a <input id="number1" type="number" min="1" max="100"/>
+	</div>
+	<div class="input">
+	  b <input id="number2" type="number" min="1" max="100"/>
+	</div>
+	<div class="input">
+	  c <input id="number3" type="number" min="1" max="100"/>	
+	</div>
+	<div class="input">
+	
+	  <!-- in Ex2 to Ex5, you need to change the name of the 
+	  event handler properly-->
+	  <button onclick="volume()"> enter </button>
+	</div>
+	<strong><p id="output">	</p></strong>
+  </div>	
+  <footer>&copy; Author: <span>Zhen Wang</span> </footer>
+</body>
+</html>

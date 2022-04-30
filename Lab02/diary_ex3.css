@@ -1,0 +1,36 @@
+body{
+    background-image:url("images/paper.png");
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.content{
+    border:3px blue solid;
+    background-color: ivory;   
+}
+header{
+    border:3px green solid;
+    text-align: right;
+}
+h1+h2{
+    border:3px orange solid;
+}
+.diary{
+    border:3px lime solid;
+    background-color: rgb(236 236 245);
+    padding: 15px;
+    margin-top: 10px;
+    overflow-x: auto;
+}
+.diary img{
+    float: right;
+}
+span{
+    border:3px cyan solid;
+}
+p{
+    border:1px grey solid;
+    border:0px;
+}
+.footer{
+    border:3px magenta solid;
+}
